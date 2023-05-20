@@ -5,9 +5,11 @@ import java.math.BigDecimal;
 public record FuncionarioRequest(
         String nome,
         String cpf,
-        String horarioDeEntrada,
-        String horarioDeSaida,
+        String email,
+        String entrada,
+        String saida,
         BigDecimal salario,
-        String pis)
+        String pis,
+        Endereco endereco)
 {
 }
