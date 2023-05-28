@@ -29,8 +29,19 @@ public class FuncionarioController {
                 dados.saida(),
                 dados.salario(),
                 dados.pis(),
-                new Endereco(dados.endereco().getLogradouro(), dados.endereco().getBairro(), dados.endereco().getCep(), dados.endereco().getNumero(), dados.endereco().getComplemento(), dados.endereco().getCidade(), dados.endereco().getUf()));
+                new Endereco(
+                        dados.endereco().getLogradouro(),
+                        dados.endereco().getBairro(),
+                        dados.endereco().getCep(),
+                        dados.endereco().getNumero(),
+                        dados.endereco().getComplemento(),
+                        dados.endereco().getCidade(),
+                        dados.endereco().getUf()));
 
         _repository.save(funcionario);
+    }
+
+    public void get(){
+
     }
 }
