@@ -22,7 +22,6 @@ public class FuncionariosControllerTest {
 
         //controller.cadastrar(request);
 
-
         //List<Funcionario> funcionarios = repository.findAll();
         //assertEquals(1, funcionarios.size());
         //assertEquals("João", funcionarios.get(0).getNome());
